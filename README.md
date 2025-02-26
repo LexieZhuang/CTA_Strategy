@@ -1,7 +1,7 @@
 # CTA Strategy for Natural Gas Futures: Leveraging Carry and Momentum Factors
 
 ## Project Overview
-This project develops a CTA strategy for Natural Gas Futures using carry and momentum factors. The approach constructs carry signals from futures price differences, computes technical indicators for momentum analysis, and dynamically combines signals based on historical performance. The strategy undergoes full-sample and recent-period backtesting to assess robustness. This project is the final project for course FRE-7841 Hedge Fund Strategies, Prof. James Conklin, NYU. Shout out to Prof. James Conklin for his support and help. 
+This project develops a **CTA strategy for Natural Gas Futures using carry and momentum factors**. The approach constructs carry signals from futures price differences, computes technical indicators for momentum analysis, and dynamically combines signals based on historical performance. The strategy undergoes full-sample and recent-period backtesting to assess robustness. We also developed a **flexible backtesting framework for in-depth analysis**. his project is the final project for course FRE-7841 Hedge Fund Strategies, Prof. James Conklin, NYU. Shout out to Prof. James Conklin for his support and help. 
 
 ## Methodology
 ### Carry Signal Construction
