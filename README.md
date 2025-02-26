@@ -37,12 +37,6 @@ This project develops a **CTA strategy for Natural Gas Futures using carry and m
 - Post-2020 Sharpe Ratio: 1.1
 - Low transaction cost impact (0.16% per trade)
 
-## Implementation
-### Dependencies
-Install required libraries:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
 
 ### Code Structure
 | Script | Function |
@@ -51,24 +45,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 | `CarrySignal.ipynb` | Construct carry signals |
 | `SelectCombine.ipynb` | Combine signals dynamically |
 | `Strategy_Backtesting.ipynb` | Backtesting framework |
-
-### Running the Pipeline
-1. Generate Technical Signals:
-   ```bash
-   jupyter notebook TechnicalSignal.ipynb
-   ```
-2. Generate Carry Signals:
-   ```bash
-   jupyter notebook CarrySignal.ipynb
-   ```
-3. Select and Combine Signals:
-   ```bash
-   jupyter notebook SelectCombine.ipynb
-   ```
-4. Run Backtesting Framework:
-   ```bash
-   jupyter notebook Strategy_Backtesting.ipynb
-   ```
 
 ## Conclusion
 ### Key Findings
